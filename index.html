@@ -94,6 +94,43 @@ $(document).ready(function() {
 		background:#000000 url(img/theme.jpg) center center relative no-repeat;　//設定背景圖片的呈現方式
 		background-size: cover;　//設定背景圖片的填滿方式
 	}        
+	
+	nav > ul {
+    		background-color: rgb(230, 230, 230);
+    		list-style: none;   /* 移除項目符號 */
+    		margin: 0;
+    		padding: 0;
+	}
+
+	nav a {
+    		color: inherit; /* 移除超連結顏色 */
+    		display: block; /* 讓 <a> 填滿 <li> */
+    		font-size: 1.2rem;
+    		padding: 10px;
+    		text-decoration: none;  /* 移除超連結底線 */
+	}
+
+	/* 滑鼠移到 <a> 時變成深底淺色 */
+	nav li:hover {
+    		background-color: rgb(115, 115, 115);
+    		color: white;
+	}
+
+	.flex-nav {
+    		display: flex;
+    		justify-content: center;
+	}
+
+	.inline-block-nav {
+    		text-align: center;
+    		font-size: 0;   /* 移除 <li> 之間的空隙 */
+	}
+
+	.inline-block-nav > li {
+    		display: inline-block;
+	}
+
+
 
 	h1 {
 		font-weight: 700;
