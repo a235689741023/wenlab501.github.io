@@ -95,26 +95,6 @@ $(document).ready(function() {
 		background-size: cover;　//設定背景圖片的填滿方式
 	}        
 	
-	nav > ul {
-    		background-color: #1a8e3f;
-    		list-style: none;   /* 移除項目符號 */
-    		margin: 0;
-    		padding: 0;
-	}
-
-	nav a {
-    		color: inherit; /* 移除超連結顏色 */
-    		display: block; /* 讓 <a> 填滿 <li> */
-    		font-size: 1.2rem;
-    		padding: 10px;
-    		text-decoration: none;  /* 移除超連結底線 */
-	}
-
-	/* 滑鼠移到 <a> 時變成淺色 */
-	nav a:hover {
-    		background-color: #78c29c;
-    		color: white;
-	}
 	
 	h1 {
 		font-weight: 700;
@@ -216,7 +196,9 @@ $(document).ready(function() {
   </head>
 
   <body>
-
+  <style type="text/css">
+	  #nav {background:#1a8e3f;}
+  </style>
   <body background="img/theme.jpg">
     <!-- Fixed navbar -->
     <div class="navbar navbar-inverse navbar-fixed-top">
