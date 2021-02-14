@@ -199,35 +199,6 @@ $(document).ready(function() {
 	  .nav > li > a:hover{
     		background-color:#78c29c;
 	  }
-	  .footer{
-   		background-color: #1a8e3f;
-   		height: 100px;
-   		margin-top: 20px;
-   		//因為通常 footer 也跟 navbar 一樣會是固定的尺寸，所以這邊可以大膽的設定高度，為了區隔上方的內容，所以用了 margin-top
-  		.footer-text{
-    			float: left;
-    			font-size: 16px;
-    			color: #78c29c;
-    			line-height: 100px;
-    			//針對 footer-text 的文字做設定，讓它 footer 的左邊
-  		}
-  		.footer-menu{
-    			float: right;
-    			line-height: 100px;
-     			//讓 footer 裡面的連結圖示靠右對齊
-    			li{
-      			float: left;
-      			margin-right: 1em;
-      			//這邊的 li 的技巧跟上面選單的技巧一樣，就不再贅述
-      				a{
-        				font-size: $16px;
-        				color: #78c29c;
-        				cursor: pointer;
-              			}
-     				//設定 a 連結的內容
-    			}
-  		}
-	    }
   </style>
   <body background="img/theme.jpg">
     <!-- Fixed navbar -->
@@ -283,16 +254,9 @@ $(document).ready(function() {
     <!-- footer start -->
     <footer>
         <div class="footer">
-            <div class="container">
-                <p class="footer-text">第9屆共生音樂節｜在場證明｜2021</p>
-                <ul class="footer-menu">
-                    <li><a href="https://neti.cc/4kOvNA7"><i class="fas fa-globe-americas"></i></a></li>
-                    <li><a href="https://www.facebook.com/GongSheng228"><i class="fab fa-facebook"></i></a></li>
-                    <li><a href="https://www.instagram.com/gongsheng228/?hl=zh-tw"><i class="fab fa-instagram"></i></a></li>
-                    <div class="clearfix"></div>
-                </ul>
-            </div>
-        </div>
+        <p><a href="https://www.facebook.com/GongSheng228">共生音樂節FB</a> | <a href="https://www.instagram.com/gongsheng228/?hl=zh-tw">共生音樂節IG</a> | <a href="https://neti.cc/4kOvNA7">台灣共生青年協會募款專頁</a></p>
+        <p>共生音樂節e-mail:  gongsheng228@gongsheng.org.tw | 台灣共生青年協會e-mail: contact@gongsheng.org.tw </p>
+    </div>
     </footer>
     <!-- footer end -->
 
