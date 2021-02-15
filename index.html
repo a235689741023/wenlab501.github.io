@@ -209,30 +209,28 @@ $(document).ready(function() {
             background-color: #1a8e3f;
             height: 100px;
             margin-top: 20px;
-   
-            .footer-text{
-                float: left;
+	 }
+	 .footer-set p{
+		float: left;
                 font-size: 16px;
                 color: #78c29c;
                 line-height: 100px;
-
-            }
-            .footer-menu{
-                float: right;
+	 }
+	.footer-set ul{
+		float: right;
                 line-height: 100px;
-    
-                li{
-                    display: inline;
-                    margin-right: 1em;
-      
-                a{
-                    font-size: 16px;
+	}
+	.footer-set ul li{
+		float: left;
+                margin-right: 1em;
+	}
+	.footer-set ul li a{
+		font-size: 16px;
                     color: #78c29c;
                     cursor: pointer;
-                }
-     
-            }
-        }
+	}
+            
+            
 </style>
 	
   <!-- Start WOWSlider.com HEAD section -->
@@ -362,13 +360,14 @@ function myFunction() {
      <footer>
         <div class="footer">
             <div class="container">
-                <p class="footer-text">第9屆共生音樂節｜在場證明｜2021</p>
-                <ul class="footer-menu">
+		<div  class="footer-set">
+                <p>第9屆共生音樂節｜在場證明｜2021</p>
+                <ul>
                     <li><a href="https://neti.cc/4kOvNA7"><i class="fas fa-globe-americas"></i></a></li>
                     <li><a href="https://www.facebook.com/GongSheng228"><i class="fab fa-facebook"></i></a></li>
                     <li><a href="https://www.instagram.com/gongsheng228/?hl=zh-tw"><i class="fab fa-instagram"></i></a></li>
-                    <div class="clearfix"></div>
                 </ul>
+	        </div>
             </div>
         </div>
     </footer>
