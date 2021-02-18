@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>二二八Ｘ情治</title>
+    <title>二二八Ｘ結語</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="utf-8">
     <!-- Bootstrap -->
@@ -34,17 +34,59 @@
 </script>
   <style>
 	h2{
-		color:#1e6435;
+		color:#1a8e3f;
 	}
 	h3{
-		color:#1a8e3f;
+		color:#78c29c;
+		background-color: #1e6435;
 	}
 	h4{
 		color:#78c29c;
 	}
 	span {
-		background-color: black;
 		color:#78c29c;
+	}
+	  
+	#bgimg {
+  		padding: 25px;
+  		background: url("https://live.staticflickr.com/65535/50946159553_f35c9042e0_h.jpg");
+  		background-repeat: no-repeat;
+  		background-size: auto;
+	}
+	#bgimg h2{
+		color: white;
+	}
+	#bgimg h4{
+		color: white;
+	}
+	
+	.footer{
+            background-color: #1a8e3f;
+            height: 50px;
+            margin-top: 15px;
+	 }
+	 .footer-set p{
+		float: left;
+                font-size: 16px;
+                color: #78c29c;
+                line-height: 20px;
+		margin-top: 15px;
+	 }
+	.footer-set ul{
+		float: right;
+                line-height: 20px;
+		margin-top: 15px;
+	}
+	.footer-set ul li{
+		float: left;
+		display: inline;
+                margin-right: 1em;
+		color: #78c29c;
+	}
+	.footer-set ul li a{
+		font-size: 16px;
+                color: #78c29c;
+                cursor: pointer;
 	}
   </style>
   </head>
@@ -71,18 +113,18 @@
 
           <ul class="nav navbar-nav navbar-left">
  
+            <li><a href="/gongsheng9thExhibition/honoraward.html">前言</a></li>
             <li><a href="/gongsheng9thExhibition/member.html">二二八Ｘ軍審、司法</a></li>
-            <li><a href="/gongsheng9thExhibition/student_research.html">二二八Ｘ地圖</a></li>
-            <li><a href="/gongsheng9thExhibition/honoraward.html">二二八Ｘ台中</a></li>
+            <li><a href="/gongsheng9thExhibition/student_research.html">二二八Ｘ地圖、台中</a></li>
             <li><a href="/gongsheng9thExhibition/teaching.html">二二八Ｘ女性</a></li>
             <li><a href="/gongsheng9thExhibition/research.html">二二八Ｘ醫生、文學</a></li>
-            <li><a href="/gongsheng9thExhibition/publication.html">二二八Ｘ物件</a></li>
-            <li><a href="/gongsheng9thExhibition/resource.html">二二八Ｘ情治</a></li>
+            <li><a href="/gongsheng9thExhibition/publication.html">二二八Ｘ物件、情治</a></li>
+            <li><a href="/gongsheng9thExhibition/resource.html">結語</a></li>
             
           </ul>
 
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="/gongsheng9thExhibition/contact.html">聯絡資訊</a></li>
+            <li><a href="/gongsheng9thExhibition/contact.html">解鎖更多</a></li>
           </ul>
 
 
@@ -93,126 +135,40 @@
 <div class="container">
   <ol class="breadcrumb">
     <li><a href="/">首頁</a></li>
-      <li class="active">二二八Ｘ情治</li>
+      <li class="active">二二八Ｘ結語</li>
   </ol>
 
-  <div class="page-header">
-    <h2>二二八Ｘ情治</h2>
+  <div id="bgimg">
+	<h4 align="center">結語</h3>	
+  	<h2 align="center">特立此板，以茲為證</h2>
   </div>
 
   <div class="row">
-
     <div class="content">
-      <div class="col-md-7" role="main">
-        <hr />
-<h3 id="1">1. 資料庫</h3>
-<p><strong>臺灣戰後人口普查資料</strong><br />
-時間長度：1956 ~ 2010 (解析度: ~10年)<br />
-地理涵蓋：台灣地區 (解析度: 鄉鎮市區)<br />
-資料來源：行政院主計處<br />
-資料主題：行政區、人口分布、族群、年齡、性別與婚姻、教育、勞動力、行業、職業與住宅等<br />
-資料格式：shpfile<br />
-網站: <a href="http://wenlab.geog.ntu.edu.tw/censusmap/zh/">中文</a>  / <a href="http://wenlab.geog.ntu.edu.tw/censusmap/en/">英文</a>  </p>
-<hr />
-<p><strong>大氣資料庫</strong><br />
-時間長度：1897 ~ 2014 (解析度: 小時)  <br />
-地理涵蓋：台灣地區 (解析度: 測站)  <br />
-資料來源：中央氣象局  <br />
-資料項目：氣壓、溫度、溼度、風速、風向、雨量、日照、雲量、降水、天空狀況、地面狀況、光象等  <br />
-資料格式：csv/db    </p>
-<hr />
-<p><strong>台灣城際運輸資料</strong><br />
-時間長度：2005、2007、2016 (解析度: 日) <br />
-地理涵蓋：台灣地區 (解析度: 鄉鎮)  <br />
-資料來源：交通部運輸研究所  <br />
-資料項目：客車、客運、鐵路、航空、高鐵、貨運  <br />
-資料格式：xlsx  </p>
-<hr />
-<p><strong>全球航空運輸資料</strong><br />
-時間長度：2004、2008、2012 (解析度: 日)<br />
-地理涵蓋：全球 (解析度: 機場、航線)<br />
-資料來源：innovata<br />
-資料項目：Carrier, Flight number, Date from, Date to, Departure airport, Arrival airport...<br />
-資料格式：csv  </p>
-<hr />
-<h3 id="2">2. 硬體</h3>
-<p><strong>伺服器</strong>  </p>
-<ul>
-<li>
-<p>IBM (ThinkCenter) x3400 M3 Server<br />
-CPU: Intel Xeon CPU E5640@2.67GHz 2.66GHz (2CPU)<br />
-Ram: 16GB<br />
-OS: Windows Server 2008  </p>
-</li>
-<li>
-<p>ASUS TS110-E8-PI4 Server<br />
-CPU: Intel Xeon CPU E3-1220 v3 @3.10GHz <br />
-Ram: 16GB<br />
-OS: Debian 8 Jessie (stable)  </p>
-</li>
-</ul>
-<p><strong>GPS接收器</strong>  </p>
-<ul>
-<li>Garmin OREGON 550t x 2  </li>
-</ul>
-<p><strong>手機</strong>  </p>
-<ul>
-<li>HTC Sensation XE  </li>
-<li>Samsung Galaxy S4 32G  </li>
-</ul>
-<p><strong>相機</strong>  </p>
-<ul>
-<li>Sony HX100V  </li>
-</ul>
-<p><strong>平板電腦</strong>  </p>
-<ul>
-<li>HTC Flyer  </li>
-</ul>
-<hr />
-<h3 id="3">3. 軟體</h3>
-<ul>
-<li>TerraSeer SpaceStat 空間統計分析  </li>
-<li>Lingo-LINDO Systems 數理規劃  </li>
-<li>Palisade @RISK 機率模擬與風險評估  </li>
-<li>AnyLogic Simulation Software 系統模擬  </li>
-<li>Stata 11 資料分析與統計模式  </li>
-<li>SCA-Scientific Computing Associates Corp.時間序列分析  </li>
-<li>STELLA-isee systems 系統動態模擬  </li>
-<li>Vensim Simulation Software系統動態模擬  </li>
-<li>GS+ Geostatistics Software 地理統計  </li>
-<li>UCINET 社會網絡分析  </li>
-<li>Esri ArcGIS 10.3 地理資訊系統 (全校授權版)  </li>
-</ul>
-<hr />
-      </div>
+      <h4 align="right">論述組/</h4>
+	<h3></h3>
+	  <span style="font-size:16px;">
+		
+	  </span>	
     </div>
-
-    <div class="col-md-3" role="complementary">
-      <nav class="hidden-print hidden-xs hidden-sm">
-        <div class="sidebar" data-spy="affix" data-offset-top="80" data-offset-bottom="60">
-          <div class="well">
-            <a href="#"><strong>研究資源</strong></a>
-            <div class="toc">
-<ul>
-<li><a href="#1">1. 資料庫</a></li>
-<li><a href="#2">2. 硬體</a></li>
-<li><a href="#3">3. 軟體</a></li>
-</ul>
-</div>
-
-          </div>
-        </div>
-      </nav>
-    </div>
-
   </div>
+	
 
 
-    <div class="footer">
-        <p><a href="https://www.facebook.com/GongSheng228">共生音樂節FB</a> | <a href="https://www.instagram.com/gongsheng228/?hl=zh-tw">共生音樂節IG</a> | <a href="https://neti.cc/4kOvNA7">台灣共生青年協會募款專頁</a></p>
-        <p>共生音樂節e-mail:  gongsheng228@gongsheng.org.tw | 台灣共生青年協會e-mail: contact@gongsheng.org.tw </p>
-    </div>
-
+    <footer>
+        <div class="footer">
+            <div class="container">
+		<div  class="footer-set">
+                <p><a href="https://www.facebook.com/GongSheng228">第9屆共生音樂節</a>｜<a href="https://www.instagram.com/gongsheng228/?hl=zh-tw">在場證明</a>｜<a href="https://gongsheng.neticrm.tw/civicrm/contribute/transact?reset=1&id=6&utm_source=https%3A%2F%2Fgongsheng.neticrm.tw%2Fcivicrm%2Fcontribute%2Ftransact%3Freset%3D1%26id%3D3">2021</a></p>
+                <ul>
+                    <li><a href="https://neti.cc/4kOvNA7"><i class="fas fa-globe-americas"></i></a></li>
+                    <li><a href="https://www.facebook.com/GongSheng228"><i class="fab fa-facebook"></i></a></li>
+                    <li><a href="https://www.instagram.com/gongsheng228/?hl=zh-tw"><i class="fab fa-instagram"></i></a></li>
+                </ul>
+	        </div>
+            </div>
+        </div>
+    </footer>
 
 </div>
 
